@@ -1,11 +1,61 @@
 import React from 'react'
 import './portfolio.css'
+import img from "../../assets/portfolio1.png"
+import img1 from "../../assets/portfolio2.png"
+import img2 from "../../assets/portfolio3.png"
+import img3 from "../../assets/movies.PNG"
+
 
 const Portfolio = () => {
   return (
-    <div>
-      
+    <section id='portfolio'>
+      <h5>My Recent Work</h5>
+      <h2>Protfolio</h2>
+<div className="container portfolio_container">
+  <article className='portolio_item'>
+    <div className='portfolio_item-image'>
+       <img src={img} alt="" />
     </div>
+     <h3>This is a portfolio Item title</h3> 
+     <div className="portfolio_item-cta">
+     <a href="https://github.com/" className='btn'>Github</a>
+     <a href="https://632491962139ab5fda8d33c1--helpful-gelato-7d23f6.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+      </div>
+  </article>
+
+  <article className='portolio_item'>
+    <div className='portfolio_item-image'>
+       <img src={img1} alt="" />
+    </div>
+     <h3>This is a portfolio Item title</h3> 
+    <div className="protfolio_item-cta">
+    <a href="https://github.com/" className='btn'>Github</a>
+     <a href="https://delightful-starship-b08d3e.netlify.app//" className='btn btn-primary' target='_blank'>Live Demo</a>  
+    </div>
+  </article>
+
+  <article className='portolio_item'>
+    <div className='portfolio_item-image'>
+       <img src={img2} alt="" />
+    </div>
+     <h3>This is a portfolio Item title</h3> 
+    <div className="protfolio_item-cta">
+      
+    <a href="https://github.com/" className='btn'>Github</a>
+     <a href="https://milencalculator.netlify.app//" className='btn btn-primary' target='_blank'>Live Demo</a></div>
+  </article>
+
+  <article className='portolio_item'>
+    <div className='portfolio_item-image'>
+       <img src={img3} alt="" />
+    </div>
+     <h3>This is a portfolio Item title</h3> 
+    <div className="portfolio_item-cta">
+    <a href="https://github.com/" className='btn'>Github</a>
+     <a href="https://milen-ale.github.io/movieHub/" className='btn btn-primary' target='_blank'>Live Demo</a></div>
+  </article>
+</div>
+    </section>
   )
 }
 

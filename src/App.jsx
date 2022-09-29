@@ -1,3 +1,4 @@
+import './index.css'
 import React from 'react'
 import Header from "./Components/header/Header"
 import Nav from "./Components/nav/Nav"
@@ -6,8 +7,8 @@ import Experience from "./Components/experience/Experience"
 import Portfolio from "./Components/portfolio/Portfolio"
 import Testimonialse from "./Components/testimonials/Testimonialse"
 import Contact from "./Components/contact/Contact"
+import Services from './Components/services/Services'
 import Footer from "./Components/footer/Footer"
-
 const App = () => {
   return (
     <>
@@ -16,12 +17,11 @@ const App = () => {
          <Nav />
          <About />
          <Experience />
-         <Service />
+         <Services />
          <Portfolio />
          <Testimonialse />
          <Contact />
          <Footer />
-
     </div>
     </>
   )
