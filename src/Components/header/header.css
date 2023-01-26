@@ -76,7 +76,6 @@ header {
   font-size: 1rem;
 }
 
-
 /* ******* MEDIA QUERIYS(MEDIUM DEVICES) ****** */
 
 @media screen and (max-width: 1024px) {
@@ -93,7 +92,6 @@ header {
     display: none;
   }
 }
-
 
 /* ******* MEDIA QUERIYS(SMALL DEVICES) ****** */
 
