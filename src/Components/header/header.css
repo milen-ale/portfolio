@@ -2,7 +2,9 @@ header {
   padding-top: 7rem;
   height: 200vh;
 }
-
+.download{
+  font-weight: 600;
+}
 .header_container {
   text-align: center;
   height: 100%;
@@ -14,6 +16,11 @@ header {
   font-size: 1rem;
   padding: 2rem;
   margin: 2rem 1.5rem;
+}
+
+.text{
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 /* ******** CTA *************** */
@@ -34,6 +41,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
+  font-size: 2rem;
 }
 
 .header_socials::after {
@@ -46,7 +54,7 @@ header {
 /* ******** Me*************** */
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
+  width: 20rem;
   height: 30rem;
   position: absolute;
   left: 50%;
@@ -62,19 +70,21 @@ header {
   position: absolute;
   right: -2.3rem;
   transform: rotate(90deg);
-  font-weight: 300;
-  font-size: 0.9rem;
+  font-weight: 600;
+  font-size: 1rem;
 }
+
 
 /* ******* MEDIA QUERIYS(MEDIUM DEVICES) ****** */
 
-@media screen and (max-width: 1024) {
+@media screen and (max-width: 1024px) {
   .header_container {
     height: 50%;
+    margin-bottom: 0;
   }
 
   header {
-    height: 100vh;
+    height: 90vh;
   }
 
   .scroll_down {
@@ -93,4 +103,11 @@ header {
   header {
     height: 100vh;
   }
+  .scroll_down {
+    display: none;
+  }
+
+  .header_socials{
+    display: none;
+  } 
 }
