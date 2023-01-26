@@ -46,6 +46,12 @@ const about = () => {
               continuous improvement and contributing to team success.{' '}
             </strong>
             products.
+            <strong>
+              {' '}
+              I've spent the last several months working remotely and
+              asynchronously with people across 3 different time zones (UTC-6,
+              UTC+1, UTC+5) which makes me way special.
+            </strong>
           </p>
           <a href='#contact' className='btn btn-primary'>
             Let's Talk
