@@ -2,9 +2,11 @@ header {
   padding-top: 7rem;
   height: 200vh;
 }
-.download{
+
+.download {
   font-weight: 600;
 }
+
 .header_container {
   text-align: center;
   height: 100%;
@@ -18,7 +20,7 @@ header {
   margin: 2rem 1.5rem;
 }
 
-.text{
+.text {
   font-size: 2rem;
   font-weight: 600;
 }
@@ -103,11 +105,12 @@ header {
   header {
     height: 100vh;
   }
+
   .scroll_down {
     display: none;
   }
 
-  .header_socials{
+  .header_socials {
     display: none;
-  } 
+  }
 }
