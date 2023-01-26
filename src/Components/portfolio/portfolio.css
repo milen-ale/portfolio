@@ -1,0 +1,52 @@
+.portfolio_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.portolio_items {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.portolio_item {
+  background: var(--color-bg-variant);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: 3px solid transparent;
+  transition: var(--transition);
+}
+
+.portolio_item:hover {
+  background: transparent;
+  background-color: var(--color-primary-variant);
+  border: 2px solid var(--color-primary-variant);
+}
+
+.portolio_item h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.portolio_item-cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+/* ******* MEDIA QUERIYS(MEDIUM DEVICES) ****** */
+
+@media screen and (max-width: 1024) {
+  .portfolio_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+
+/* ******* MEDIA QUERIYS(SMALL DEVICES) ****** */
+
+@media screen and (max-width: 600px) {
+  .portfolio_container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
