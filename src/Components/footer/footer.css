@@ -14,7 +14,6 @@ footer a {
 .footer_logo {
   font-size: 1.5rem;
   font-weight: 500;
-  margin-bottom: 2rem;
   display: inline-block;
 }
 
@@ -48,7 +47,6 @@ footer a {
 }
 
 .footer_copyright {
-  margin-bottom: 4rem;
   color: var(--color-bg);
 }
 
