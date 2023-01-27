@@ -13,10 +13,10 @@ const contact = () => {
 
     emailjs
       .sendForm(
-        'service_1ktzj2k',
-        'YOUR_TEMPLATE_ID',
+        'service_mlgnajp',
+        'template_1amqjrf',
         form.current,
-        'YOUR_USER_ID'
+        'N1ymStmtu-9LrVTQN'
       )
       .then(
         (result) => {
@@ -74,7 +74,7 @@ const contact = () => {
             placeholder='Your Message'
             required
           ></textarea>
-          <button type='Submit' className='btn btn-primary'>
+          <button type='Submit' value='Send' className='btn btn-primary'>
             Send Message
           </button>
         </form>
