@@ -37,15 +37,14 @@ const about = () => {
             </article>
           </div>
           <p>
-            I'm a <strong>self-motivated, dedicated</strong>{' '}
+            <strong> I'm a self-motivated, dedicated</strong>{' '}
             <strong>
               and a high-performing Web Developer with a passion for technology.
               Impact on positive organisational outcomes through programming and
               problem-solving. Confident in collaborating with cross-functional
               teams to solve complex, high-stakes problems. I am committed to
-              continuous improvement and contributing to team success.{' '}
+              continuous improvement and contributing to team success. products.{' '}
             </strong>
-            products.
             <strong>
               {' '}
               I've spent the last several months working remotely and
@@ -54,7 +53,7 @@ const about = () => {
             </strong>
           </p>
           <a href='#contact' className='btn btn-primary'>
-            Let's Talk
+            <b> Let's Talk</b>
           </a>
         </div>
       </div>
