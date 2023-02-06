@@ -26,11 +26,12 @@
 .portolio_item h3 {
   margin: 1.2rem 0 2rem;
 }
- 
-.btns{
-gap: 2rem;
+
+.btns {
+  gap: 2rem;
 }
-.protfolio_item-cta{
+
+.protfolio_item-cta {
   display: flex;
   gap: 0.5rem;
   margin-bottom: 3rem;
