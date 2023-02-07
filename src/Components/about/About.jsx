@@ -37,18 +37,23 @@ const about = () => {
             </article>
           </div>
           <p>
-            I'm a <strong>self-motivated, dedicated</strong>{' '}
+            <strong> I'm a self-motivated, dedicated</strong>{' '}
             <strong>
               and a high-performing Web Developer with a passion for technology.
               Impact on positive organisational outcomes through programming and
               problem-solving. Confident in collaborating with cross-functional
               teams to solve complex, high-stakes problems. I am committed to
-              continuous improvement and contributing to team success.{' '}
+              continuous improvement and contributing to team success. products.{' '}
             </strong>
-            products.
+            <strong>
+              {' '}
+              I've spent the last several months working remotely and
+              asynchronously with people across 3 different time zones (UTC-6,
+              UTC+1, UTC+5) which makes me way special.
+            </strong>
           </p>
           <a href='#contact' className='btn btn-primary'>
-            Let's Talk
+            <b> Let's Talk</b>
           </a>
         </div>
       </div>
