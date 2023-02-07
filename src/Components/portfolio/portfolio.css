@@ -11,7 +11,7 @@
 
 .portolio_item {
   background: var(--color-bg-variant);
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 2rem;
   border: 3px solid transparent;
   transition: var(--transition);
