@@ -39,6 +39,14 @@ const Experience = () => {
             <article className='experience_details'>
               <BsFillPatchCheckFill className='text-lights' />
               <div>
+                <h4>react </h4>
+                <small className='text-lights'>Exprienced</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='text-lights' />
+              <div>
                 <h4>BootStrap</h4>
                 <small className='text-lights'>Exprienced</small>
               </div>
@@ -47,8 +55,15 @@ const Experience = () => {
             <article className='experience_details'>
               <BsFillPatchCheckFill className='text-lights' />
               <div>
-                <h4>Talwind</h4>
+                <h4>MaterialUI</h4>
                 <small className='text-light'>Exprienced</small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='text-lights' />
+              <div>
+                <h4>typeScript </h4>
+                <small className='text-lights'>Exprienced</small>
               </div>
             </article>
             <article className='experience_details'>
@@ -64,6 +79,30 @@ const Experience = () => {
         <div className=' experience_backend'>
           <h3>Backend Development</h3>
           <div className='exprience_content'>
+          <article className='experience_details'>
+              <BsFillPatchCheckFill className='text-lights' />
+              <div>
+                <h4> Node JS </h4>
+                <small className='text-light'>Exprienced</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='text-lights' />
+              <div>
+                <h4> Express JS </h4>
+                <small className='text-light'>Exprienced</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='text-lights' />
+              <div>
+                <h4> Restfull API </h4>
+                <small className='text-light'>Exprienced</small>
+              </div>
+            </article>
+
             <article className='experience_details'>
               <BsFillPatchCheckFill className='text-lights' />
               <div>
@@ -83,7 +122,7 @@ const Experience = () => {
             <article className='experience_details'>
               <BsFillPatchCheckFill className='text-lights' />
               <div>
-                <h4>PostgreSQL</h4>
+                <h4> Python</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
@@ -91,8 +130,32 @@ const Experience = () => {
             <article className='experience_details'>
               <BsFillPatchCheckFill className='text-lights' />
               <div>
+                <h4>Elastic Search </h4>
+                <small className='text-light'>Exprienced</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='text-lights' />
+              <div>
+                <h4> Mongo DB </h4>
+                <small className='text-light'>Exprienced</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='text-lights' />
+              <div>
+                <h4>PostgreSQL</h4>
+                <small className='text-light'>Exprienced</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='text-lights' />
+              <div>
                 <h4>MySQL </h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Exprienced</small>
               </div>
             </article>
           </div>

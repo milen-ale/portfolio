@@ -2,29 +2,38 @@ import React from 'react';
 import CTA from '../CTA';
 import HeaderSocials from '../HeaderSocials';
 import './header.css';
-import Image from '../../assets/my.jpg';
+
 const Header = () => {
   return (
     <header>
       <div className='container header_container'>
-        <h5>Hello I'm </h5>
-        <h1>Milen Alebel</h1>
-        <h5> Fullstack Developer </h5>
-        <p className='text-light  text'>
-          {' '}
-          I Can help you build a product, feature or Website Look through some
-          of my Work and experience! if you like what you see and need help on a
-          project, I am availabel for hire.
-        </p>
-        <CTA />
-        <HeaderSocials />
-        <div className='me'>
-          <img src={Image} alt='me' />
+        <div className='header_socials'>
+          <HeaderSocials />
+          <div className='vertical-line'></div>
         </div>
 
-        <a href='#contact' className='scroll_down'>
-          Scrol down
-        </a>
+        <div className='center-column'>
+          <div className='text-container'>
+            <h5 className="greeting">Hi, my name is</h5>
+            <h1 className="name">Milen Alebel.</h1>
+            <h5 className="role">I am a software engineer.</h5>
+            <p className="bio">
+            I’m a software and web developer specializing in backend development and building scalable digital solutions. Currently, I’m focused on creating innovative backend systems for various projects.
+            </p>
+            <div className="cta-buttons">
+              <CTA />
+            </div>
+          </div>
+        </div>
+
+        <div className='right-column'>
+          <div className='email'>
+            <a href="mailto:milenalebel2@gmail.com">milenalebel2@gmail.com</a>
+          </div>
+          <div className='scroll_down'>
+            <a href='#contact'>Scroll down</a>
+          </div>
+        </div>
       </div>
     </header>
   );

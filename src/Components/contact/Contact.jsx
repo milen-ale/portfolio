@@ -6,7 +6,7 @@ import { FiTwitter } from 'react-icons/fi';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
-const contact = () => {
+const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -83,4 +83,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

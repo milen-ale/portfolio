@@ -6,10 +6,16 @@ import {BsGithub} from 'react-icons/bs';
 
 const HeaderSocials = () => {
   return (
-    <div className='header_socials'>
-      <a href="https//linkdin.com" target= "_blank"><BsLinkedin /> </a>
-      <a href="https//github.com" target= "_blank"> <BsGithub /></a>
-      <a href="https//twittr" target= "_blank">< BsTwitter/></a>
+    <div className='left-column'>
+     <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+  <BsLinkedin />
+</a>
+<a href="https://github.com" target="_blank" rel="noopener noreferrer">
+  <BsGithub />
+</a>
+<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+  <BsTwitter />
+</a>
 
     </div>
   )

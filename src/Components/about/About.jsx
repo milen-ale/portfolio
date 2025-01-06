@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import Me from '../../assets/Me.jpg';
+import last from '../../assets/last.jpg';
 import { BsAward } from 'react-icons/bs';
 import { FiUsers } from 'react-icons/fi';
 import { BiFolderOpen } from 'react-icons/bi';
@@ -13,7 +13,7 @@ const about = () => {
       <div className='.container about_container'>
         <div className='about_me'>
           <div className='about_me-image'>
-            <img src={Me} alt='' />
+            <img src={last}alt='' />
           </div>
         </div>
         <div className='about_content'>
@@ -21,7 +21,7 @@ const about = () => {
             <article className='about-card'>
               <BsAward className='about_icon' />
               <h5> Experience</h5>
-              <small> 1+ year Working</small>
+              <small> 2+ year Working</small>
             </article>
 
             {/* <article className='about-card'>
@@ -37,13 +37,14 @@ const about = () => {
             </article>
           </div>
           <p>
-            <strong> I'm a self-motivated, dedicated</strong>{' '}
+            <strong> I'm a self-motivated</strong>{' '}
             <strong>
-              and a high-performing Web Developer with a passion for technology.
-              Impact on positive organisational outcomes through programming and
-              problem-solving. Confident in collaborating with cross-functional
-              teams to solve complex, high-stakes problems. I am committed to
-              continuous improvement and contributing to team success. products.{' '}
+           dedicated, and high-performing Software Developer with a passion for technology and problem-solving.
+             I aim to drive positive organizational outcomes through backend development and efficient coding practices.
+              Confident in collaborating with cross-functional teams to solve complex, high-stakes challenges, 
+              I am committed to continuous improvement and team success. Over the past several months,
+               I’ve been working remotely and asynchronously with teams across three different time zones
+                (UTC-6, UTC+1, UTC+5), which has strengthened my adaptability and ability to deliver results in diverse environments.{' '}
             </strong>
             <strong>
               {' '}

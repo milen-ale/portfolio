@@ -26,6 +26,7 @@
   overflow: hidden;
   transform: rotate(10deg);
   height: 100%;
+  width: 100%;
 }
 
 .about_me-image:hover {
@@ -34,7 +35,7 @@
 
 .about_cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
@@ -65,8 +66,8 @@
 }
 
 .about-card small {
-  color: var(--color-light);
-  font-size: 0.9rem;
+  color: var(--color-white);
+  font-size: 1rem;
 }
 
 .about_content p {
@@ -105,7 +106,7 @@
   }
 
   .about {
-    margin-top: 27rem;
+    margin-top: 8rem;
   }
 
   .about_cards {
@@ -119,7 +120,7 @@
     }
 
     .about {
-      margin-top: 27rem;
+      margin-top: 13rem;
     }
 
     .about_cards {
