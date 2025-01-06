@@ -56,7 +56,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Rails Frontend] <a name="about-project"></a>
+# 📖 [Hello] <a name="about-project"></a>
 ![hello-gif](https://i.gifer.com/7P5M.gif)
 
 **[My Portfolio]** is a project that that shows my work
