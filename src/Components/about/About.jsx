@@ -2,7 +2,6 @@ import React from 'react';
 import './about.css';
 import last from '../../assets/last.jpg';
 import { BsAward } from 'react-icons/bs';
-import { FiUsers } from 'react-icons/fi';
 import { BiFolderOpen } from 'react-icons/bi';
 
 const about = () => {

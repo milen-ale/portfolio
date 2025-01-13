@@ -1,49 +1,57 @@
-import React from 'react';
-import { AiOutlineHome } from 'react-icons/ai';
-import { AiOutlineUser } from 'react-icons/ai';
-import { BiBookBookmark } from 'react-icons/bi';
-// import {RiServiceLine} from 'react-icons/ri'
-import { BiMessageDetail } from 'react-icons/bi';
-import { useState } from 'react';
-
+import React, { useState } from 'react';
+import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
+import { BiBookBookmark, BiMessageDetail } from 'react-icons/bi';
 import './nav.css';
+
+
+const NavLink = ({ href, icon: Icon, label, activeNav, setActiveNav }) => (
+  <a
+    href={href}
+    onClick={() => setActiveNav(href)}
+    className={activeNav === href ? 'active' : ''}
+    aria-current={activeNav === href ? 'page' : undefined}
+    aria-label={label}
+  >
+    <Icon />
+  </a>
+);
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
+
   return (
-    <div>
-      <nav>
-        <a
-          href='#'
-          onClick={() => setActiveNav('#')}
-          className={activeNav === '#' ? 'active' : ''}
-        >
-          <AiOutlineHome />
-        </a>
-        <a
-          href='#about'
-          onClick={() => setActiveNav('#about')}
-          className={activeNav === '#about' ? 'active' : ''}
-        >
-          <AiOutlineUser />
-        </a>
-        <a
-          href='#experiance'
-          onClick={() => setActiveNav('#experiance')}
-          className={activeNav === '#experience' ? 'active' : ''}
-        >
-          <BiBookBookmark />
-        </a>
-        {/* <a href="#services" onClick={() =>setActiveNav('#service')} className={activeNav === '#service' ? 'active':''}>< RiServiceLine /></a> */}
-        <a
-          href='#contact'
-          onClick={() => setActiveNav('#contact')}
-          className={activeNav === '#contact' ? 'active' : ''}
-        >
-          <BiMessageDetail />
-        </a>
+    <header>
+      <nav role="navigation">
+        <NavLink
+          href="#"
+          icon={AiOutlineHome}
+          label="Home"
+          activeNav={activeNav}
+          setActiveNav={setActiveNav}
+        />
+        <NavLink
+          href="#about"
+          icon={AiOutlineUser}
+          label="About"
+          activeNav={activeNav}
+          setActiveNav={setActiveNav}
+        />
+        <NavLink
+          href="#experience"
+          icon={BiBookBookmark}
+          label="Experience"
+          activeNav={activeNav}
+          setActiveNav={setActiveNav}
+        />
+        <NavLink
+          href="#contact"
+          icon={BiMessageDetail}
+          label="Contact"
+          activeNav={activeNav}
+          setActiveNav={setActiveNav}
+        />
       </nav>
-    </div>
+    </header>
   );
 };
 

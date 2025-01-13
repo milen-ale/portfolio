@@ -1,4 +1,4 @@
-import React, { useState }from 'react';
+import React  from 'react';
 import './experience.css';
 import { BsFillPatchCheckFill } from 'react-icons/bs';
 
@@ -63,7 +63,7 @@ const Experience = () => {
               <BsFillPatchCheckFill className='text-lights' />
               <div>
                 <h4>typeScript </h4>
-                <small className='text-lights'>Exprienced</small>
+                <small className='text-lights'>Intermediate</small>
               </div>
             </article>
             <article className='experience_details'>

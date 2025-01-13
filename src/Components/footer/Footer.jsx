@@ -6,41 +6,38 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <footer className='footer_logo'>
-      <a href='a'>MILEN</a>
-      <ul className='peremalinks'>
+    <footer className="footer_logo">
+      <a href="#top">MILEN</a>
+      <ul className="permalinks">
         <li>
-          {' '}
-          <a href='#'>Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href='#about'>About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href='#expetience'>Experience</a>
-        </li>
-        {/* <li><a href="#services">Services</a></li> */}
-        <li>
-          <a href='#portfolio'></a>Portfolio
+          <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href='#contact'></a>Contact
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div className='footer_socials'>
-        <a href='https://linkdin.com'>
-          {' '}
-          <FaLinkedinIn />{' '}
+      <div className="footer_socials">
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <FaLinkedinIn />
         </a>
-        <a href='https://twitter.com'>
-          <FiTwitter />{' '}
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <FiTwitter />
         </a>
-        <a href='https://instagram.com'>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
           <BsInstagram />
         </a>
       </div>
-      <div className='footer_copyright'>
-        <small>&copy; milen portfolio All rights reserved</small>
+      <div className="footer_copyright">
+        <small>&copy; MILEN Portfolio. All rights reserved.</small>
       </div>
     </footer>
   );

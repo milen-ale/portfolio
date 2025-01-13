@@ -1,7 +1,6 @@
 /* General Header Styling */
 header {
-  padding-top: 5rem;
-  height: 100vh;
+  padding-top: 10rem;
   position: relative; 
 background-color: #0a192f;
   color: white;
