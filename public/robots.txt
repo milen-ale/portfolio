@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://milenportfolio.netlify.app/sitemap.xml
